@@ -83,7 +83,7 @@ const HomeScreen: React.FC = () => {
           </View>
 
           <WalletConnectModal projectId={projectId} providerMetadata={providerMetadata} />
-          {isConnected && <BottomNavigation navigateTo={navigateTo} />}
+        
         </>
       )}
     </View>

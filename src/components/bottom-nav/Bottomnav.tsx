@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, Animated } from 'react-native';
 
+
+
 interface BottomNavigationProps {
   navigateTo: (screen: string) => void;
 }
